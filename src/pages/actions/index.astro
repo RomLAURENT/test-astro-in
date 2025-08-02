@@ -1,0 +1,17 @@
+---
+import actions from '../../data/actions.json';
+---
+<html lang="fr">
+  <head>
+    <meta charset="utf-8" />
+    <title>Liste des Actions</title>
+  </head>
+  <body>
+    <h1>Actions</h1>
+    <ul>
+      {actions.map(action => (
+        <li><a href={`/actions/${action.slug}/`}>{action.titre}</a></li>
+      ))}
+    </ul>
+  </body>
+</html>

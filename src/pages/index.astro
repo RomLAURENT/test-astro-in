@@ -1,0 +1,76 @@
+---
+import reseaux from '../data/reseaux.json';
+import '../styles/iv.css';
+import logo from '../assets/logo-inbt.svg';
+import RsEntry from '../components/rs-entry.astro';
+import { tryLoadModule } from '../utils/md-loader';
+
+const Gpg = await tryLoadModule(`content/signature-gpg.md`);
+---
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Indignons-nous !</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" lang="fr" content="Bloquons tout, Indignons-nous, 10 Septembre, 10 Septembre 2025">
+    <meta name="location" content="France, FRANCE">
+    <link rel="stylesheet" href="iv.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="banniere">
+        <img class="logo_une" src={logo.src} />
+        <h1>10 Septembre 2025</h1>
+    </div>
+
+<div class="center">
+    <div class="postit">
+    <h2 align="center">Les raisons de notre colère</h2>
+    <h3>
+        Le plan Bayrou, c’est :
+    <br>
+    <br>
+    <ul>
+        <li>Une année blanche sans investissement dans les salaires, les retraites, ni les services publics.</li>
+        <li>3 000 postes supprimés, un fonctionnaire sur trois non remplacé.</li>
+        <li>5 milliards retirés à la santé, franchises doublées pour les malades.</li>
+        <li>Deux jours fériés supprimés.</li>
+        <li>Six jours de carence en cas d’arrêt maladie.</li>
+        <li>Aucune hausse des aides ni des pensions.</li>
+    </ul>
+    <br>
+        Nous disons <strong><b>NON</b></strong> et appelons toutes les personnes résidant en France métropolitaine et dans les DOM-TOM à se mobiliser contre ce budget !
+<br>
+<br>
+        Nous ne voulons pas subir leur crise.<br>
+        Nous voulons changer de cap, pour de bon, avec et pour le peuple. Pas contre lui.
+<br>
+<br>
+        NOUS APPELONS CHAQUE DÉPUTÉ À FAIRE SON DEVOIR : VOTER LA MOTION DE CENSURE CONTRE CE PLAN INJUSTE ET DANGEREUX.
+        <br>
+        LES FRANÇAIS VOUS REGARDENT.
+        <br>
+        ET ILS N’OUBLIERONT PAS.
+    </h3>
+    </div>
+</div>
+
+<br />
+<br />
+<br />
+
+<article>
+    {reseaux.map(reseau => <RsEntry entry={reseau} />)}
+</article>
+
+<article>
+    <Gpg/>
+</article>
+
+</body>
+</html>

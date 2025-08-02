@@ -1,0 +1,33 @@
+---
+import { tryLoadModule } from '../../utils/md-loader';
+import actions from '../../data/actions.json';
+
+
+export async function getStaticPaths() {
+  return actions.map(film => ({
+    params: { slug: film.slug }
+  }));
+}
+
+const { slug } = Astro.params;
+const action = actions.find(f => f.slug === slug);
+
+if (!action) throw new Error(`Film ${slug} introuvable`);
+
+let Description = await tryLoadModule(`content/actions/descriptions/${slug}.md`);
+---
+<html lang="fr">
+  <head>
+    <meta charset="utf-8" />
+    <title>{action.titre}</title>
+  </head>
+  <body>
+    <h1>{action.titre}</h1>
+    <p>lat: {action.lat}</p>
+    <p>lon: {action.lon}</p>
+
+    {Description ? <Description /> : <p><em>Aucune description disponible.</em></p>}
+
+    <a href="/actions">← Retour à la liste</a>
+  </body>
+</html>

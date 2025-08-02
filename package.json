@@ -1,0 +1,15 @@
+{
+  "name": "astro-films",
+  "type": "module",
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview"
+  },
+  "devDependencies": {
+    "astro": "^4.0.0"
+  },
+  "dependencies": {
+    "sharp": "^0.34.3"
+  }
+}
