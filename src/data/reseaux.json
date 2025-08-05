@@ -1,212 +1,96 @@
 [
   {
     "nom":"Groupe national",
-    "sousGroupes": [
+    "liens": [
       {
         "nom": "Telegram",
-        "liens": [
-          "https://t.me/IndignonsNous",
-          "https://t.me/+B5CJp-RUGpAzMmQ8"
-        ]
+        "url": "https://t.me/+YNG1MrUQ3dhhYzc8"
       },
       {
         "nom": "TikTok",
-        "liens": [
-          "https://www.tiktok.com/@indignons.nous?_t=ZN-8yNaVgW8ko2&_r=1"
-        ]
+        "url": "https://www.tiktok.com/@indignons.nous?_t=ZN-8yNaVgW8ko2&_r=1"
       },
       {
         "nom": "Page Facebook",
-        "liens": [
-          "https://www.facebook.com/share/1756itHqEv/"
-        ]
+        "url": "https://www.facebook.com/share/1756itHqEv/"
       },
       {
         "nom": "Groupe Facebook",
-        "liens": [
-          "https://www.facebook.com/share/g/1CSSg8uzbG/?mibextid=wwXIfr"
-        ]
+        "url": "https://www.facebook.com/share/g/1CSSg8uzbG/?mibextid=wwXIfr"
       },
       {
         "nom": "X (ex Twitter)",
-        "liens": [
-          "https://x.com/indignonsn?s=21&t=QD-MbK3egNj4PJFBjzTF8g"
-        ]
+        "url": "https://x.com/indignonsn?s=21&t=QD-MbK3egNj4PJFBjzTF8g"
       }
     ]
   },
   {
     "nom":"Groupes régionaux",
-    "sousGroupes": [
+    "liens": [
       {
-        "nom": "AUVERGNE RHÔNE ALPES",
-        "sousGroupes":[
-          {
-            "nom": "Telegram",
-            "liens": [
-              "https://t.me/dontpayfrance"
-            ]
-          }
-        ]
+        "nom": "Auvergne Rhône Alpes",
+        "url": "https://t.me/dontpayfrance"
       },
       {
-        "nom": "BOURGOGNE FRANCHE COMTÉ",
-        "sousGroupes":[
-          {
-            "nom": "Telegram",
-            "liens": [
-              "https://t.me/+daL7pAZ2eXAxYmY0"
-            ]
-          }
-        ]
+        "nom": "Bourgogne Franche Comté",
+        "url": "https://t.me/+daL7pAZ2eXAxYmY0"
       },
       {
-        "nom": "BRETAGNE",
-        "sousGroupes":[
-          {
-            "nom": "Telegram",
-            "liens": [
-              "https://t.me/+2zyykrgSNYI4YmQ0"
-            ]
-          }
-        ]
+        "nom": "Bretagne",
+        "url": "https://t.me/+2zyykrgSNYI4YmQ0"
       },
       {
-        "nom": "CENTRE VAL DE LOIRE",
-        "sousGroupes":[
-          {
-            "nom": "Telegram",
-            "liens": [
-              "https://t.me/+1F026domhCI5Yzhk"
-            ]
-          }
-        ]
+        "nom": "Centre Val de Loire",
+        "url": "https://t.me/+1F026domhCI5Yzhk"
       },
       {
-        "nom": "CORSICA",
-        "sousGroupes":[
-          {
-            "nom": "Telegram",
-            "liens": [
-              "https://t.me/+6nGU1MKqF1E1MTI0"
-            ]
-          }
-        ]
+        "nom": "Corsica",
+        "url": "https://t.me/+6nGU1MKqF1E1MTI0"
       },
       {
-        "nom": "GRAND EST",
-        "sousGroupes":[
-          {
-            "nom": "Telegram",
-            "liens": [
-              "https://t.me/+DwayRkLGjxBhYjc0"
-            ]
-          }
-        ]
+        "nom": "Grand Est",
+        "url": "https://t.me/+DwayRkLGjxBhYjc0"
       },
       {
-        "nom": "HAUTS DE FRANCE",
-        "sousGroupes":[
-          {
-            "nom": "Telegram",
-            "liens": [
-              "https://t.me/retlHDF"
-            ]
-          }
-        ]
+        "nom": "Hauts de France",
+        "url": "https://t.me/retlHDF"
       },
       {
-        "nom": "ÎLE DE FRANCE",
-        "sousGroupes":[
-          {
-            "nom": "Telegram",
-            "liens": [
-              "https://t.me/retlIDF"
-            ]
-          }
-        ]
+        "nom": "Île de France",
+        "url": "https://t.me/retlIDF"
       },
       {
-        "nom": "NORMANDIE",
-        "sousGroupes":[
-          {
-            "nom": "Telegram",
-            "liens": [
-              "https://t.me/+NY521X2MIxxhNzQ0"
-            ]
-          }
-        ]
+        "nom": "Normandie",
+        "url": "https://t.me/+NY521X2MIxxhNzQ0"
       },
       {
-        "nom": "NOUVELLE AQUITAINE",
-        "sousGroupes":[
-          {
-            "nom": "Telegram",
-            "liens": [
-              "https://t.me/+fFVATyvoOWowZjA0"
-            ]
-          }
-        ]
+        "nom": "Nouvelle Aquitaine",
+        "url": "https://t.me/+fFVATyvoOWowZjA0"
       },
       {
-        "nom": "OCCITANIE",
-        "sousGroupes":[
-          {
-            "nom": "Telegram",
-            "liens": [
-              "https://t.me/collectifsunis31"
-            ]
-          }
-        ]
+        "nom": "Occitanie",
+        "url": "https://t.me/collectifsunis31"
       },
       {
-        "nom": "OUTRE-MER",
-        "sousGroupes":[
-          {
-            "nom": "Telegram",
-            "liens": [
-              "https://t.me/+k6w3Bdy4Nr81MzQ8"
-            ]
-          }
-        ]
+        "nom": "Outre-mer",
+        "url": "https://t.me/+k6w3Bdy4Nr81MzQ8"
       },
       {
         "nom": "PACA",
-        "sousGroupes":[
-          {
-            "nom": "Telegram",
-            "liens": [
-              "https://t.me/+6nGU1MKqF1E1MTI0"
-            ]
-          }
-        ]
+        "url": "https://t.me/+6nGU1MKqF1E1MTI0"
       },
       {
-        "nom": "PAYS DE LA LOIRE",
-        "sousGroupes":[
-          {
-            "nom": "Telegram",
-            "liens": [
-              "https://t.me/+UlH4Zr3yf5FjMmRk"
-            ]
-          }
-        ]
+        "nom": "Pays de la Loire",
+        "url": "https://t.me/+UlH4Zr3yf5FjMmRk"
       }
     ]
   },
   {
     "nom": "Les groupes étrangers",
-    "sousGroupes": [
+    "liens": [
       {
-        "nom": "BELGIQUE",
-        "sousGroupes":[
-          {
-            "nom": "Telegram",
-            "liens": [
-              "https://t.me/+vXyhM9YVjzMyOTJk"
-            ]
-          }
-        ]
+        "nom": "Belgique",
+        "url": "https://t.me/+vXyhM9YVjzMyOTJk"
       }
     ]
   }

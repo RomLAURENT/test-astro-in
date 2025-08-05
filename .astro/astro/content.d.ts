@@ -140,16 +140,7 @@ declare module 'astro:content' {
 	>;
 
 	type ContentEntryMap = {
-		"actions": {
-"descriptions/bloquage-les-radis-jaunes.md": {
-	id: "descriptions/bloquage-les-radis-jaunes.md";
-  slug: "bloquage-les-radis-jaunes";
-  body: string;
-  collection: "actions";
-  data: any
-} & { render(): Render[".md"] };
-};
-
+		
 	};
 
 	type DataEntryMap = {
